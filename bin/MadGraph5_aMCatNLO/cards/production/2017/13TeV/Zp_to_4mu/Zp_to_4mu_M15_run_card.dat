@@ -69,8 +69,8 @@
   1.0	= alpsfact ! scale factor for QCD emission vx
   F	= chcluster ! cluster only according to channel diag
   T	= pdfwgt ! for ickkw=1, perform pdf reweighting
- 263401   = PDF_set_min      ! First of the error PDF sets 
- 263500   = PDF_set_max      ! Last of the error PDF sets
+#263401   = PDF_set_min      ! First of the error PDF sets 
+#263500   = PDF_set_max      ! Last of the error PDF sets
   4	= asrwgtflavor ! highest quark flavor for a_s reweight
   T	= clusinfo ! include clustering tag in output
   3.0	= lhe_version ! Change the way clustering information pass to shower.        
@@ -88,7 +88,7 @@
 #**********************************
 # BW cutoff (M+/-bwcutoff*Gamma)
 #**********************************
-  15000  = bwcutoff      ! (M+/-bwcutoff*Gamma)
+  15  = bwcutoff      ! (M+/-bwcutoff*Gamma)
 #**********************************************************
 # Apply pt/E/eta/dr/mij cuts on decay products or not
 # (note that etmiss/ptll/ptheavy/ht/sorted cuts always apply)
@@ -137,7 +137,7 @@
    -1  = etaj    ! max rap for the jets 
   -1  = etab    ! max rap for the b
   -1  = etaa    ! max rap for the photons 
-  2.5  = etal    ! max rap for the charged leptons 
+  3.0  = etal    ! max rap for the charged leptons 
   0 = etaonium ! max rap for the quarkonium states
    0  = etajmin ! min rap for the jets
    0  = etabmin ! min rap for the b
